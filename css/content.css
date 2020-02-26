@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "tlgotdMayan";
+    src: url("MayanFonts/mayanglyphsfill-Regular.woff");
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.mayan {
+    font-family: "tlgotdMayan";
+    font-size: 70px;
+    text-align: center;
+    margin: 10px;
+}
