@@ -2,10 +2,11 @@
 let last_known_scroll_position = 0;
 let ticking = false;
 let redTarget = 200;
+let scrollLag = 100;
 
 function doSomething(scroll_pos) {
     let ratio = scroll_pos / document.documentElement.clientHeight;
-    console.log(ratio);
+    //console.log(ratio);
     let inverseRatio = 1 - ratio;
     let bgRed = 255 * Math.pow(inverseRatio, 1.4);
     let bgGB = 255 * inverseRatio;
@@ -18,14 +19,23 @@ function doSomething(scroll_pos) {
 }
 
 window.addEventListener('scroll', function(e) {
-  last_known_scroll_position = window.scrollY;
-  if (!ticking) {
-    window.requestAnimationFrame(function() {
-      doSomething(last_known_scroll_position);
-      ticking = false;
-    });
-    ticking = true;
+  let current_scroll_position = window.scrollY;
+  let scroll_diff = current_scroll_position - last_known_scroll_position;
+  if(scroll_diff > scrollLag || scroll_diff < -scrollLag){
+    last_known_scroll_position = current_scroll_position;
+    doSomething(last_known_scroll_position);
+  } else {
+    // Don't bother if there's only been a small change. Conserve so compute
+    return;
   }
+  
+  // if (!ticking) {
+  //   window.requestAnimationFrame(function() {
+  //     doSomething(last_known_scroll_position);
+  //     ticking = false;
+  //   });
+  //   ticking = true;
+  // }
 });
 
 async function initializeContent(){
