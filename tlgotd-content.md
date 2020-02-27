@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/content.css" type="text/css" charset="utf-8" />
-
 As soon as the jeep stops, the heat begins in earnest. It washes through the small vehicle. It feels like being hit with a blast of steam. So hot that my skin stings unpleasantly and so humid I think my clothes might mildew off my body.
 
 The guide gets out of the driver seat and looks ahead. The road is washed outahead of us, all the earth swept away to expose a section of perhaps twentyfeet that was paved with nothing but the underlying rocks. Boulders two orthree feet in diameter with similar spaces in between. To our left the junglerises impassably, a wall of vines and foliage. To our right is a steep drop offorty feet or more. At it's base, more jungle on as far as the eye can see.

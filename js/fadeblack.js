@@ -1,3 +1,4 @@
+// Set global variables and constants
 let last_known_scroll_position = 0;
 let ticking = false;
 let redTarget = 200;
@@ -18,13 +19,25 @@ function doSomething(scroll_pos) {
 
 window.addEventListener('scroll', function(e) {
   last_known_scroll_position = window.scrollY;
-
   if (!ticking) {
     window.requestAnimationFrame(function() {
       doSomething(last_known_scroll_position);
       ticking = false;
     });
-
     ticking = true;
   }
 });
+
+async function initializeContent(){
+  try{
+    let contentFetch = await fetch('tlgotd-content.html', {
+  	  method: 'get'
+    });
+    let text = await contentFetch.text();
+    document.getElementById("contentSection").innerHTML = text;
+  } catch {
+  	console.log("ouch");
+  }
+}
+
+initializeContent();
