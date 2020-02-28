@@ -1,0 +1,14 @@
+<svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .common { text-anchor: middle; fill: red; }
+    .tlg { font: 30px serif; }
+    .ot { font: italic 15px serif; }
+    .darkness { font: 40px serif; }
+    .by { text-anchor: right; fill: red; font: italic 10px serif; }
+  </style>
+
+  <text x="90" y="35" class="common tlg">The Last God</text>
+  <text x="90" y="51" class="common ot">of the </text>
+  <text x="90" y="85" class="common darkness">Darkness</text>
+  <text x="110" y="170" class="by">by Skyler Olson</text>
+</svg>

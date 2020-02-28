@@ -38,6 +38,21 @@ window.addEventListener('scroll', function(e) {
   // }
 });
 
+// function setHeaderFooterSize(){
+//   let pageHeight = document.body.clientHeight;
+//   let pageWidth = document.body.clientWidth;
+//   let header = document.getElementById("title");
+//   let footer = document.getElementById("footer");
+//   header.style.height = pageHeight;
+//   header.style.width = pageWidth;
+//   footer.style.width = pageWidth;
+// }
+
+// window.addEventListener('load', () => {
+//   setHeaderFooterSize()
+//   //window.onresize(setHeaderFooterSize);
+// })
+
 async function initializeContent(){
   try{
     let contentFetch = await fetch('tlgotd-content.html', {

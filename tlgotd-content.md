@@ -10,9 +10,9 @@ I follow the guide out. It's even hotter with the midday sun beating down.Shield
 
 He doesn't answer right away. Instead, he takes a cigarette out of an innerpocket and lights it. As he smokes, he surveys the washout. His eyes dart fromrock to rock, imagining our vehicle astride them, tires bouncing over the gapsin between. Finally, after the cigarette is burned down halfway, he turns to meand says, “Sí”
 
-“Bueno. So, uh, vamos?”
+“*Bueno*. So, uh, *vamos?*”
 
-“Sí”
+“*Sí.*”
 
 We return to the jeep. “He thinks we can get through,” I tell the Professor.
 
@@ -22,7 +22,7 @@ The guide restarts the jeep and we roll forward. We creep, inch by inch acrossth
 
 A rock below us slips the jeep pitches to the right, towards the drop off. Ilet out a cry and my fingers dig into the handle, but the guide keeps his head.His foot comes down on the gas and we accelerate forward, bouncing over severalboulders. The bottom of the jeep scrapes against the rocks, but it pulls usaway from the edge. And just in time. Behind us I see several rocks, at leastone of which a tire had rested on, slide off the edge. Several seconds later Ihear the percussive crack as they hit the bottom.
 
-The guide doesn't look outwardly perturbed, but I see that he's bitten most ofthe way through the filter of his cigarette. I ask, “Bien?”
+The guide doesn't look outwardly perturbed, but I see that he's bitten most ofthe way through the filter of his cigarette. I ask, “*¿Bien?*”
 
 He just nods and we keep going. It's only a few more nudges on the gas pedal. Afew more sickening lurches, and then we're on the far side, rutted dirt underour wheels. Without looking back, the guide accelerates. Wind rushes in throughthe open windows, taking away the worst of the heat and clearing the cigarettesmoke. As the boulders disappear around a bend in the road, I realized that myheart is pounding and my shirt is drenched with sweat.
 
