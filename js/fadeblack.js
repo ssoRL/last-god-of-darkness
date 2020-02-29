@@ -13,13 +13,13 @@ function doSomething(scroll_pos) {
   // Remove red from the palate faster so that the text remains readable
   let bgRed = 255 * Math.pow(inverseRatio, 1.4);
   let bgGB = 255 * inverseRatio;
-  let backgroundColorStyle = "rgb(" + bgRed + "," + bgGB + "," + bgGB + ")";
+  let backgroundColorStyle = `rgb(${bgRed},${bgGB},${bgGB})`;
   document.body.style.backgroundColor = backgroundColorStyle;
   // Next change the text to be redder the further the user scrolls
   // Multiply by 1.4 so the text is fully red a bit before the bottom (again readability)
   // But use min so that the red never goes past target
   let textColor = Math.min(redTarget * ratio * 1.4, redTarget);
-  let textColorStyle = "rgb(" + textColor + ",0,0)";
+  let textColorStyle = `rgb(${textColor},0,0)`;
   document.body.style.color = textColorStyle;
 }
 
