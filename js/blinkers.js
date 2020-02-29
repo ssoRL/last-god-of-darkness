@@ -1,7 +1,7 @@
 // Constants
-FIXED_DELAY = 5000; // in miliseconds
-WEIRD_DELAY = 10000; // a delay effected by chance
-LONGGAZE_CHANCE = 0.5; // The chance the the eyes will linger longer than normal
+FIXED_DELAY = 60000; // in miliseconds
+WEIRD_DELAY = 30000; // a delay effected by chance
+LONGGAZE_CHANCE = 0.1; // The chance the the eyes will linger longer than normal
 SHORT_LINGER = 250; // The normal blink on/off thing
 LONG_LINGER = 1000; // A longer, soul-chilling gaze time
 
