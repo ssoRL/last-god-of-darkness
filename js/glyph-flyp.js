@@ -8,7 +8,7 @@ function flipGlyphs() {
     // eyes get more common the further along you are
     let roll_the_dice = Math.random();
     try{
-        let ratio = window.scrollY / document.documentElement.clientHeight;
+        let ratio = window.scrollY / document.getElementById("tlgotd-body").clientHeight;
         if(ratio > roll_the_dice) {
             let glyphs = document.body.getElementsByClassName("mayan");
             let glyph_index = Math.floor(Math.random() * glyphs.length);

@@ -33,7 +33,7 @@ function blinkEyes() {
     // eyes get more common the further along you are
     let roll_the_dice = Math.random();
     try{
-        let ratio = window.scrollY / document.documentElement.clientHeight;
+        let ratio = window.scrollY / document.getElementById("tlgotd-body").clientHeight;
         if(ratio > roll_the_dice) {
             // Then we're going to have some fun
             // First generate a new img with the eyes
