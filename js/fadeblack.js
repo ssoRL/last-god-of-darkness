@@ -11,7 +11,7 @@ function doSomething(scroll_pos) {
   let inverseRatio = 1 - ratio;
   // Change the color of the color of the background, approach 0 (black) as the user scrolls
   // Remove red from the palate faster so that the text remains readable
-  let bgRed = 255 * Math.pow(inverseRatio, 1.4);
+  let bgRed = 255 * Math.pow(inverseRatio, 2);
   let bgGB = 255 * inverseRatio;
   let backgroundColorStyle = `rgb(${bgRed},${bgGB},${bgGB})`;
   document.body.style.backgroundColor = backgroundColorStyle;
