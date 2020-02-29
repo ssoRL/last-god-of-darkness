@@ -22,6 +22,10 @@ p {
     margin: 10px;
 }
 
+#upsidedown-temple {
+    transform: rotate(180deg);
+}
+
 #title {
     background-color: black;
     color: rgb(200,0,0);

@@ -406,7 +406,7 @@ I look around in desperation. I get nothing but darkness.
 
 And then, a deeper darkness closes in.
 
-<p id="upsidedown-temple" class="mayan" style="transform: rotate(180deg);">d</p>
+<p id="upsidedown-temple" class="mayan">d</p>
 
 I don't know if it was a dream or not, what happened next. There are many reasons to believe it was. I saw things differently than I ever have waking. But at the same time I believe now, and I certainly believed then, that I was awake. Or perhaps I found a place where the boundary between waking and dreams was too thin for the distinction to hold meaning. At any rate, I won't dwell further on this, as I don't believe it to be of much importance.
 

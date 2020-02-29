@@ -67,7 +67,6 @@ function blinkEyes() {
         }
     } catch(e) {
         // JaguarGod.smite(e);
-        console.log(e);
     }
 
     // Whatever else happens, prepare to run it all again
