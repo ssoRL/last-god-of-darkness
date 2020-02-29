@@ -38,3 +38,15 @@ p {
 #footer {
     width: 100%;
 }
+
+.eyes-transition {
+    transition: opacity 100ms;
+}
+
+.eyes-closed {
+    opacity: 0;
+}
+
+.eyes-open {
+    opacity: 1;
+}

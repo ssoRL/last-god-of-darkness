@@ -406,7 +406,7 @@ I look around in desperation. I get nothing but darkness.
 
 And then, a deeper darkness closes in.
 
-<p class="mayan" style="transform: rotate(180deg);">d</p>
+<p id="upsidedown-temple" class="mayan" style="transform: rotate(180deg);">d</p>
 
 I don't know if it was a dream or not, what happened next. There are many reasons to believe it was. I saw things differently than I ever have waking. But at the same time I believe now, and I certainly believed then, that I was awake. Or perhaps I found a place where the boundary between waking and dreams was too thin for the distinction to hold meaning. At any rate, I won't dwell further on this, as I don't believe it to be of much importance.
 
@@ -984,7 +984,7 @@ I take the offerings and return them to the satchel. They are mine now. Bought a
 
 As I search, I avoid looking at the Professor's body on the ground. I mutter to myself, “That was a long time ago. Hundreds and hundreds. Thousands of years ago.” It seems true.
 
-I hear a rustling in the jungle behind me and swing around, pointing my flashlight bean into the darkness.
+I hear a rustling in the jungle behind me and swing around, pointing my flashlight beam into the darkness.
 
 From there, I see a pair of eyes watching me, slit-like pupils in the center of golden orbs. They approach and a moment later I see the whole jaguar. It's body is sleek and spotted, and much larger than I thought a jaguar should be.
 
