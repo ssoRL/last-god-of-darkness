@@ -60,20 +60,21 @@ p {
     border-bottom: 1px solid rgb(200,0,0);
 }
 
+#top-bar-content {
+    width: max-content;
+}
+
 #top-bar span {
     font-family: "tlgotdMayan";
     font-size: 35px;
     color: rgb(200,0,0);
     padding-left: 5px;
+    display: inline-block;
 }
 
 #content-buffer {
     width: 100vw;
     height: 70px;
-}
-
-#footer {
-    width: 100%;
 }
 
 .eyes-transition {
@@ -88,14 +89,27 @@ p {
     opacity: 1;
 }
 
+#footer {
+    width: 100vw;
+    position: relative;
+}
+
+#footer img {
+    width: 100%;
+}
+
 a {
-    padding: 50px;
-    display: block;
-    text-align: center;
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(200,0,0);
 }
 
 a:hover {
     color: white;
+}
+
+#tlgotd-body a {
+    position: absolute;
+    left: 30vw;
+    top: 80px;
+    font-size: 30px;
 }

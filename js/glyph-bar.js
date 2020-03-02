@@ -20,7 +20,7 @@ function initBar() {
         }
         innerString += `<span id="${glyph.id}">${letter}</span>`;
     }
-    document.getElementById("top-bar").innerHTML = innerString;
+    document.getElementById("top-bar-content").innerHTML = innerString;
 }
 
 window.addEventListener("auxScroll", () => {
