@@ -44,7 +44,6 @@ p {
     height: 45px;
     background-color: black;
     overflow: hidden;
-    padding-bottom: 5px;
     position: sticky;
     top: 0;
     border-bottom: 1px solid rgb(200,0,0);

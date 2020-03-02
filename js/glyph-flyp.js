@@ -38,6 +38,5 @@ function flipGlyphs() {
 }
 
 window.addEventListener("contentLoaded", (a, b) => {
-    debugger;
     flipGlyphs();
 });
