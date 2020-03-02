@@ -2,6 +2,9 @@
 let last_scroll_position = 0;
 // This is the number of pixels to let pass before recoloring everything
 let scrollLagGB = 100;
+// A handle to the dom element of the top bar
+let top_bar;
+let top_bar_content;
 
 
 
@@ -20,16 +23,18 @@ function initBar() {
         }
         innerString += `<span id="${glyph.id}">${letter}</span>`;
     }
-    document.getElementById("top-bar-content").innerHTML = innerString;
+    top_bar_content.innerHTML = innerString;
 }
 
 window.addEventListener("auxScroll", () => {
-    top_bar.scrollLeft = top_bar.scrollLeftMax * ratio;
+    scrollLeftMax = top_bar_content.clientWidth - top_bar.clientWidth;
+    top_bar.scrollLeft = scrollLeftMax * ratio;
 })
 
 
 window.addEventListener("contentLoaded", () => {
     top_bar = document.getElementById("top-bar");
+    top_bar_content = document.getElementById("top-bar-content");
     top_bar.scrollLeft = 0;
     initBar();
 });
