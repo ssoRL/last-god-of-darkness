@@ -37,4 +37,7 @@ function flipGlyphs() {
     window.setTimeout(flipGlyphs, FIXED_DELAY + WEIRD_DELAY * roll_the_dice);
 }
 
-flipGlyphs();
+window.addEventListener("contentLoaded", (a, b) => {
+    debugger;
+    flipGlyphs();
+});
