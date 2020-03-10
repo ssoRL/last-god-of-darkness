@@ -1,8 +1,8 @@
 // Constants
-FIXED_DELAY = 60000; // in miliseconds
-WEIRD_DELAY = 30000; // a delay effected by chance
+BLINKER_FIXED_DELAY = 30000; // in miliseconds
+BLINKER_WEIRD_DELAY = 50000; // a delay effected by chance
 LONGGAZE_CHANCE = 0.1; // The chance the the eyes will linger longer than normal
-SHORT_LINGER = 250; // The normal blink on/off thing
+SHORT_LINGER = 350; // The normal blink on/off thing
 LONG_LINGER = 1000; // A longer, soul-chilling gaze time
 
 // This function places the eye's somewhere in the gutters of the page
@@ -12,19 +12,19 @@ function set_position(eyes) {
     let eyes_width = Math.floor(Math.max(gutter_width/2, 40));
     eyes.style.width = `${eyes_width}px`;
     eyes.style.position = "fixed";
-    // Set the top property the eyes can be anywhere from 5px from the top
+    // Set the top property the eyes can be anywhere from 55px from the top
     // to 5px from the bottom. (max top = page_height - eye_height - 5px)
     let eye_height = eyes.clientHeight;
-    let page_height = document.documentElement.clientWidth
-    let top_value = Math.random() * (page_height - eye_height - 10) + 5;
-    eyes.style.top = top_value;
+    let page_height = document.documentElement.clientHeight;
+    let top_value = Math.random() * (page_height - eye_height - 60) + 55;
+    eyes.style.top = `${Math.floor(top_value)}px`;
     // position the element horizontally
     let h_offset = Math.random() * (gutter_width - eyes_width - 10) + 5;
     // Can be on the left or the right
     if (Math.random() > 0.5){
-        eyes.style.left = h_offset;
+        eyes.style.left = `${Math.floor(h_offset)}px`;
     } else {
-        eyes.style.right = h_offset;
+        eyes.style.right = `${Math.floor(h_offset)}px`;
     }
 }
 
@@ -34,6 +34,7 @@ function blinkEyes() {
     let roll_the_dice = Math.random();
     try{
         let ratio = window.scrollY / document.getElementById("tlgotd-body").clientHeight;
+        console.log(`${roll_the_dice} of ${ratio}`);
         if(ratio > roll_the_dice) {
             // Then we're going to have some fun
             // First generate a new img with the eyes
@@ -70,7 +71,8 @@ function blinkEyes() {
     }
 
     // Whatever else happens, prepare to run it all again
-    window.setTimeout(blinkEyes, FIXED_DELAY + WEIRD_DELAY * roll_the_dice);
+    let delay = BLINKER_FIXED_DELAY + BLINKER_WEIRD_DELAY * roll_the_dice;
+    window.setTimeout(blinkEyes, delay);
 }
 
 blinkEyes();
