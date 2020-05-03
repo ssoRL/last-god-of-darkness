@@ -21,7 +21,7 @@ function initBar() {
         if(letter === 'd'){
             //debugger;
         }
-        innerString += `<span id="${glyph.id}">${letter}</span>`;
+        innerString += `<span class="${glyph.classList.toString()}">${letter}</span>`;
     }
     top_bar_content.innerHTML = innerString;
 }

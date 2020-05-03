@@ -3,8 +3,6 @@
 let LAST_SCROLL_POSITION = 0;
 // This is the number of pixels to let pass before firing a redraw
 let SCROLL_LAG = 100;
-// The height of the page
-let PAGE_HEIGHT
 
 // The ratio of the page that's been passed by
 let ratio;
@@ -37,19 +35,18 @@ function moveWithScroll(scroll_pos) {
 
 
 window.addEventListener("contentLoaded", () => {
-    // Determine the height of all the content
-    PAGE_HEIGHT = document.getElementById("tlgotd-body").clientHeight;
     // Listen to all scroll events
     window.addEventListener('scroll', function(e) {
         let current_scroll_position = window.scrollY;
         let scroll_diff = current_scroll_position - LAST_SCROLL_POSITION;
         // If the change in the scroll position is great enough to be of note ...
         if(scroll_diff > SCROLL_LAG || scroll_diff < -SCROLL_LAG){
+            let page_height = document.getElementById("tlgotd-body").clientHeight;
             // ... update the LAST_SCROLL_POSITION ...
             LAST_SCROLL_POSITION = current_scroll_position;
             // ... calculate ratio of the page that's scrolled thru ...
             let viewport_height = document.documentElement.clientHeight;
-            ratio = current_scroll_position / (PAGE_HEIGHT - viewport_height);
+            ratio = current_scroll_position / (page_height - viewport_height);
             // ... fire an event letting other's know to update
             window.dispatchEvent(new CustomEvent("auxScroll"));
         } else {

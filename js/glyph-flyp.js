@@ -14,14 +14,14 @@ function flipGlyphs() {
             let glyph_index = Math.floor(Math.random() * glyphs.length);
             let glyph = glyphs[glyph_index];
             // flip anything other than the temple
-            if(glyph.id !== "upsidedown-temple") {
+            if(!glyph.classList.contains("upsidedown-temple")) {
                 glyph.style.transform = "scaleX(-1)";
             }
             // Wait for LINGER milliseconds ...
             window.setTimeout(
                 () => {
                     // ... then flip it back
-                    if(glyph.id !== "upsidedown-temple") {
+                    if(!glyph.classList.contains("upsidedown-temple")) {
                         glyph.style.transform = "scaleX(1)";
                     }
                 },

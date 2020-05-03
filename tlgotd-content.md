@@ -307,7 +307,7 @@ I shouted over the cacophony, “What payment do you ask for.”
 
 My answer is a long time in coming, “Meet me at the shrine. There we can discuss my payment.”
 
-<p class="mayan">l</p>
+<p id="high-readability-limit" class="mayan">l</p>
 
 When I rise the next morning, I see that the Professor has already been awake for some time, poring over the glyphs I'd copied down the day before and taking copious notes on a pad of lined paper. I do not disturb him but instead help the guide prepare breakfast for the three of us. Only when the food is ready does the Professor look up from his task. And then only long enough to accept the proffered plate of rehydrated hash, and then return to work.
 
@@ -406,7 +406,7 @@ I look around in desperation. I get nothing but darkness.
 
 And then, a deeper darkness closes in.
 
-<p id="upsidedown-temple" class="mayan">d</p>
+<p id="low-readability-limit" class="mayan upsidedown-temple">d</p>
 
 I don't know if it was a dream or not, what happened next. There are many reasons to believe it was. I saw things differently than I ever have waking. But at the same time I believe now, and I certainly believed then, that I was awake. Or perhaps I found a place where the boundary between waking and dreams was too thin for the distinction to hold meaning. At any rate, I won't dwell further on this, as I don't believe it to be of much importance.
 
@@ -775,7 +775,7 @@ When I turn the key, that hope is dashed. The engine gives a brief choking sputt
 
 Maybe the battery is dead. Maybe the starter is broken. It doesn't matter. I know we won't fix it. At the root of the matter, what's wrong with the engine is the dark forces bent against it. Against that, the engine will never run again.
 
-I lean the seat back and pull out a cigarette from my pocket. I light it and take a drag the Professor says, “You smoke now?”
+I lean the seat back and pull out a cigarette from my pocket. I light it and take a drag. The Professor says, “You smoke now?”
 
 I shrug.
 
@@ -813,7 +813,7 @@ I'm on the ground in front of the jeep, coughing out smoke. I cough until my thr
 
 <p class="mayan">u</p>
 
-I was on my knees. All around me were the warren on tunnels, so I knew this was another dream. I'm still coughing, even in my dream. Slowly the pain in my throat and chest drove me out of my body, until I was hovering above it, watching myself cough. Watching myself through a pair of sharp feline eyes. I lift the cigarette to my fanged mouth and breathe in the sweet smoke. From somewhere deep in my chest a noise rises up unbidden. A deep throaty rumble. Purring.
+I was on my knees. All around me were the warren on tunnels, so I knew this was another dream. I was coughing, even in my dream. Slowly the pain in my throat and chest drove me out of my body, until I was hovering above it, watching myself cough. Watching myself through a pair of sharp feline eyes. I lift the cigarette to my fanged mouth and breathe in the sweet smoke. From somewhere deep in my chest a noise rises up unbidden. A deep throaty rumble. Purring.
 
 The purring filled the tunnels, just as the laughter had. Reverberating and amplifying. Building into an all encompassing experience of sound. And then slowly shifting, changing into a sound I knew I should recognize, but could not.
 

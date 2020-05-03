@@ -4,7 +4,7 @@ async function initializeContent(){
           method: 'get'
       });
       let text = await contentFetch.text();
-      document.getElementById("contentSection").innerHTML = text;
+      document.getElementById("content-section").innerHTML = text;
       window.dispatchEvent(new CustomEvent("contentLoaded"));
     } catch {
         // Maybe try updating your browser
