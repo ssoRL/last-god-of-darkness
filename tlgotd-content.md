@@ -42,7 +42,7 @@ The road had once passed close to the edge of the cliff. But now it is gone. Was
 
 From the backseat, the Professor squinting through the windshield shouts, “What's going on? Can we keep going?”
 
-I turn to our Guide and am choosing verbs out of my limited vocabulary. But he didn't wait for the question. He shook his head and said, “*No Puedo manajar mas lejo. Nos quedarémos aqui por la noche, y mañana, vamos a caminar.*”
+I turn to our Guide and am choosing verbs out of my limited vocabulary. But he didn't wait for the question. He shook his head and said, “*No puedo manajar mas lejo. Nos quedaremos aqui por la noche, y mañana, vamos a caminar.*”
 
 I turn to the Professor, “Tomorrow, we're walking.”
 
