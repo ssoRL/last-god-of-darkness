@@ -5,6 +5,8 @@
 
 html body {
     margin: 0;
+    overflow-y: scroll;
+    overflow-x: clip;
 }
 
 #ack-body {
@@ -34,7 +36,7 @@ p {
 #title {
     background-color: black;
     color: rgb(200,0,0);
-    max-width: 100vw;
+    max-width: 100%;
     height: calc(100vh - 45px);
 }
 
@@ -45,7 +47,7 @@ p {
 }
 
 #top-bar {
-    width: 100vw;
+    width: 100%;
     height: 45px;
     background-color: black;
     overflow: hidden;
@@ -69,7 +71,7 @@ p {
 }
 
 #content-buffer {
-    width: 100vw;
+    width: 100%;
     height: 70px;
 }
 
@@ -86,7 +88,7 @@ p {
 }
 
 #footer {
-    width: 100vw;
+    width: 100%;
     position: relative;
     background: black
 }
