@@ -4,11 +4,12 @@
   "description": "The Last God of the Darkness",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node generateContent.js && http-server"
   },
   "author": "Skyler Olson",
   "license": "ISC",
   "devDependencies": {
-    "marked": "^0.8.0"
+    "http-server": "14.1.0",
+    "marked": "^4.0.10"
   }
 }
